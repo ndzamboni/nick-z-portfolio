@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<p id="readme-top"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License Shield](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](./LICENSE) [![LinkedIn Shield](https://img.shields.io/badge/LinkedIn-555555?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mateo-wallace/)
 
-## Available Scripts
+<!-- TITLE -->
 
-In the project directory, you can run:
+# React Portfolio - Nick Zamboni
 
-### `npm start`
+<!-- DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Web Developer Portfolio built using React. Consists of a home, education, experience, projects, and contact page.
 
-### `npm test`
+While building this project I learned to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Deploy a React App without a back end using [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages)
+- Use [Iconify](https://iconify.design/) to display various tech related icons
 
-### `npm run build`
+<!-- BUILT WITH -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![REACT Shield](https://img.shields.io/badge/React-222222?&style=for-the-badge&logo=react)](https://reactjs.org/) [![Node.js Shield](https://img.shields.io/badge/Node.js-339933?&style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/) [![JavaScript Shield](https://img.shields.io/badge/JavaScript-F7DF1E?&style=for-the-badge&logo=javascript&logoColor=272727)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![CSS Shield](https://img.shields.io/badge/CSS-1572B6?&style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![HTML Shield](https://img.shields.io/badge/HTML5-E34F26?&style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- TABLE OF CONTENTS -->
 
-### `npm run eject`
+## Table of Contents
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Deployed Site](#deployed-site)
+- [Deployment Instructions](#deployment-instructions)
+- [License](#license)
+- [Contact](#contact)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- DEPLOYED SITE -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployed Site
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To see the deployed site go to []()
 
-## Learn More
+![example of deployed portfolio]()
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- DEPLOYMENT INSTRUCTIONS -->
 
-### Code Splitting
+## Deployment Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+From the command line use:
 
-### Analyzing the Bundle Size
+1. `npm run build`
+1. Copy `README.md` into the build folder
+1. `cd build/`
+1. 🡇
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+git init
+git add .
+git commit -m "production build"
+git remote add origin git@github.com:
+git remote -v
+git push origin +main
+```
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- LICENSE -->
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- CONTACT -->
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nick Zamboni - [GitHub](https://github.com/ndzamboni) - [Email](mailto:ndzamboni@gmail.com) - [LinkedIn](https://www.linkedin.com/in/nick-zamboni-44664b10b/)
+
+Project Repo: []()
+
+Deployed Repo: []()
+
+Deployed Site: []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
