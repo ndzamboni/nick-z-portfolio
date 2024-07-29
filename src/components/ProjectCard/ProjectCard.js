@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import "./ProjectCard.css";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
@@ -19,62 +19,63 @@ export default function ProjectCard({ repo, theme }) {
 
   return (
     <div>
-      <Fade bottom duration={2000} distance="40px">
-        <div
-          {...styles}
-          key={repo.name}
-          style={{
-            backgroundColor: theme.projectCard,
-            backgroundImage: `linear-gradient(#6e1c2b, ${theme.projectCard} max(9.5rem, 15vh))`,
-          }}
-          className="project-card"
-        >
-          {repo.image ? (
-            <a href={repo.url} target="_blank" rel="noopener noreferrer">
-              <img
-                src={require(`../../assests/images/${repo.image}`)}
-                alt={repo.alt_name}
-              />
-            </a>
-          ) : (
-            ""
-          )}
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2 }}
+        {...styles}
+        key={repo.name}
+        style={{
+          backgroundColor: theme.projectCard,
+          backgroundImage: `linear-gradient(#6e1c2b, ${theme.projectCard} max(9.5rem, 15vh))`,
+        }}
+        className="project-card"
+      >
+        {repo.image ? (
+          <a href={repo.url} target="_blank" rel="noopener noreferrer">
+            <img
+              src={require(`../../assests/images/${repo.image}`)}
+              alt={repo.alt_name}
+            />
+          </a>
+        ) : (
+          ""
+        )}
 
-          <div style={{ padding: "10px 2rem 1rem 2rem" }}>
-            <div className="repo-name-div">
-              <p className="repo-name" style={{ color: theme.text }}>
-                {repo.name}
-              </p>
-            </div>
-            <p
-              className="experience-card-company"
-              style={{ color: theme.secondaryText }}
-            >
-              <a href={repo.url} target="_blank" rel="noopener noreferrer">
-                Repo
+        <div style={{ padding: "10px 2rem 1rem 2rem" }}>
+          <div className="repo-name-div">
+            <p className="repo-name" style={{ color: theme.text }}>
+              {repo.name}
+            </p>
+          </div>
+          <p
+            className="experience-card-company"
+            style={{ color: theme.secondaryText }}
+          >
+            <a href={repo.url} target="_blank" rel="noopener noreferrer">
+              Repo
+            </a>
+            {repo.deployedSite ? (
+              <a
+                href={repo.deployedSite}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginLeft: "15px" }}
+              >
+                Deployed Site
               </a>
-              {repo.deployedSite ? (
-                <a
-                  href={repo.deployedSite}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ marginLeft: "15px" }}
-                >
-                  Deployed Site
-                </a>
-              ) : (
-                ""
-              )}
-            </p>
-            <p className="repo-description" style={{ color: theme.text }}>
-              {repo.description}
-            </p>
-            <div className="repo-details">
-              <ProjectLanguages logos={repo.languages} />
-            </div>
+            ) : (
+              ""
+            )}
+          </p>
+          <p className="repo-description" style={{ color: theme.text }}>
+            {repo.description}
+          </p>
+          <div className="repo-details">
+            <ProjectLanguages logos={repo.languages} />
           </div>
         </div>
-      </Fade>
+      </motion.div>
     </div>
   );
 }

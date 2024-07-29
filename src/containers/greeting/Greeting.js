@@ -2,7 +2,7 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting, settings } from "../../portfolio";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
@@ -19,7 +19,11 @@ export default function Greeting(props) {
   });
 
   return (
-    <Fade bottom duration={2000} distance="40px">
+    <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 2 }}
+    >
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -62,6 +66,6 @@ export default function Greeting(props) {
           </div>
         </div>
       </div>
-    </Fade>
+    </motion.div>
   );
 }

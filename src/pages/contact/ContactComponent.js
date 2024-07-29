@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
@@ -24,7 +24,11 @@ function Contact(props) {
     <div className="contact-main">
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-contact">
-        <Fade bottom duration={1000} distance="40px">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
           <div className="contact-heading-div">
             <div className="contact-heading-img-div">
               <BlogsImg theme={theme} />
@@ -56,7 +60,7 @@ function Contact(props) {
               </a>
             </div>
           </div>
-        </Fade>
+        </motion.div>
       </div>
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
@@ -23,7 +23,11 @@ function Projects(props) {
     <div className="projects-main">
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-projects">
-        <Fade bottom duration={2000} distance="40px">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2 }}
+        >
           <div className="projects-heading-div">
             <div className="projects-heading-img-div">
               <ProjectsImg theme={theme} />
@@ -43,7 +47,7 @@ function Projects(props) {
               </p>
             </div>
           </div>
-        </Fade>
+        </motion.div>
       </div>
       <div className="repo-cards-div-main">
         {projects.data.map((repo) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./CertificationCard.css";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 import { style } from "glamor";
 
 function CertificationCard(props) {
@@ -15,7 +15,11 @@ function CertificationCard(props) {
   });
 
   return (
-    <Fade bottom duration={2000} distance="20px">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 2 }}
+    >
       <a
         className="cert-card"
         {...styles}
@@ -36,11 +40,6 @@ function CertificationCard(props) {
                 alt={certificate.alt_name}
               />
             </div>
-            {/* <div className="content-details fadeIn-top">
-									<h3 className="content-title" style={{ color: theme.body }}>
-										Certificate
-									</h3>
-								</div> */}
           </div>
         </div>
         <div className="cert-body">
@@ -55,7 +54,7 @@ function CertificationCard(props) {
           </h3>
         </div>
       </a>
-    </Fade>
+    </motion.div>
   );
 }
 
