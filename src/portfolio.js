@@ -233,12 +233,12 @@ const settings = {
       //   color_code: "#47A048",
       // },
       {
-        title: "Postman Student Expert",
-        subtitle: "Postman",
+        title: "Placeholder",
+        subtitle: "placeholder",
         logo_path: "postman.png",
         certificate_link:
           "https://api.badgr.io/public/assertions/vaZHGY3bQe2o-g5kVNQ7_Q?identity__email=mateo.t.wallace%40gmail.com",
-        alt_name: "Postman",
+        alt_name: "placeholder",
         color_code: "#fffbf3",
       },
     ],
@@ -249,57 +249,47 @@ const settings = {
     title: "Experience",
     subtitle: "Work, Internship and Volunteership",
     description:
-      "Currently working as a Teaching Assistant and Tutor. Actively looking for remote work in the form of internships and job opportunities. Constantly working on personal projects.",
+      "Currently working as a Membership Director for the YMCA of Greensboro. I work with large amounts of data, lead a large team, and I have to have strong problem solving skills. I am also a Full Stack Web Developer, with a focus on the MERN stack. I have experience with a variety of projects, from simple websites to complex web applications.",
     header_image_path: "experience.svg",
     sections: [
       {
         title: "Work Experience",
         experiences: [
           {
-            title: "Full Stack Web Developer - Teaching Assistant",
-            company: "edX Boot Camps, LLC",
-            company_url: "https://www.edx.org/boot-camps",
-            logo_path: "edx-bootcamps-logo.jpg",
-            duration: "Feb 2023 - Present",
-            location: "Remote",
-            description: `Instructing the next generation of Web Developers in MERN stack skills. Incorporating grading, code review, and error handling into the workflow.`,
+            title: "Membership Director - YMCA of Greensboro",
+            company: "YMCA of Greensboro",
+            company_url: "https://www.ymcagreensboro.org/locations/alex-w-spears-iii-ymca",
+            logo_path: "mateo-logo.png",
+            duration: "August 2021 - Present",
+            location: "Greensboro, NC",
+            description: `Leads a team of over 30 staff to provide quality service to over 6,000 members. Manages an annual budget of over $2 million and is responsible for membership data and reporting. Works with the CEO and other directors to create and implement new programs and services.`,
             color: "#117888",
           },
           {
-            title: "Web Development & Math Tutor",
-            company: "Freelance",
-            company_url: "https://mateo-wallace.github.io/",
+            title: "Family Services Director",
+            company: "YMCA of Greensboro",
+            company_url: "https://www.ymcagreensboro.org/locations/alex-w-spears-iii-ymca",
             logo_path: "mateo-logo.png",
-            duration: "June 2015 - Present",
-            location: "Remote",
-            description: `Tutoring and teaching since high school in a variety of subjects. Preparing students for college & workforce level scenarios.`,
+            duration: "August 2015 - August 2021",
+            location: "Greensboro, NC",
+            description: `Directed family service programs, managing community outreach and engagement. Led a large team of staff to provide quality summer camp and after school programs.`,
             color: "#e3405f",
           },
-          {
-            title: "Director of Operations",
-            company: "US Postal & Printing",
-            company_url:
-              "https://www.yelp.com/biz/us-postal-and-printing-west-palm-beach",
-            logo_path: "uspp-logo.png",
-            duration: "May 2018 - Dec 2022",
-            location: "West Palm Beach, FL",
-            description: `Running a physical store. Managing a team of proficient individuals to satisfy customer needs. Utilizing and managing databases of customers, addresses, and packages. Graphic design for clients of all event types.`,
-            color: "#3453a5",
-          },
+          
         ],
       },
       {
         title: "Volunteerships",
         experiences: [
           {
-            title: "GitHub Student Developer",
-            company: "GitHub",
-            company_url: "https://github.com/",
-            logo_path: "github.png",
-            duration: "Nov 2022 - Present",
-            location: "Remote",
+            title: "Bright Beginnings Program Leader",
+            company: "YMCA of Greensboro",
+            company_url: "https://www.ymcagreensboro.org/locations/alex-w-spears-iii-ymca",
+            logo_path: "mateo-logo.png",
+            duration: "August 2018 - Present",
+            location: "Greensboro, NC",
             description:
-              "Contribute to Open Source Community and Open Source Project.",
+              "Leads the annual Bright Beginnings program which provides school supplies and clothing to children in need annually.",
             color: "#040f26",
           },
         ],
@@ -327,13 +317,13 @@ const settings = {
   const projects = {
     data: [
       {
-        name: "Discord DumBot",
-        url: "https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2",
-        deployedSite: "https://mateo-wallace.github.io/MP2-Discord-DumBot-V2/",
+        name: "Discord Gaming Vision Board",
+        url: "https://github.com/ndzamboni/discord-bot-gaming-vision-board",
+        deployedSite: "https://github.com/ndzamboni/discord-bot-gaming-vision-board",
         image: "dumbot.png",
-        alt_name: "DumBot running on discord",
+        alt_name: "Vision Board Bot on Discord",
         description:
-          "Open source Discord Bot. Allows users to roll dice and play music with various utility commands.",
+          "Allows users to post games they would like to play to a shared vision board. Users can then react to the games they would like to play, and the bot will keep track of the games with the most reactions.",
         languages: [
           {
             name: "DiscordJS",
@@ -350,13 +340,13 @@ const settings = {
         ],
       },
       {
-        name: "rpg-dice-js",
-        url: "https://github.com/Mateo-Wallace/rpg-dice-js",
-        deployedSite: "https://www.npmjs.com/package/@mateo-wallace/rpg-dice-js",
+        name: "Potty Partner",
+        url: "https://github.com/ndzamboni/Potty_Partner",
+        deployedSite: "https://potty-partner.onrender.com",
         image: "rpg-dice-js.png",
-        alt_name: "rpg-dics-js on the npm website",
+        alt_name: "potty partner deployed site",
         description:
-          "Dice rolling npm package. Allows users to either import a basic roll() function or import a Dice() class where they can use custom settings.",
+          "Potty Partner is a web application designed to help users find bathrooms and leave reviews. Whether you’re traveling, in a new city, or just out and about, Potty Partner makes it easy to locate nearby restrooms and read user reviews to find the cleanest, most accessible options. This app aims to provide a community-driven resource for bathroom locations and conditions, ensuring that everyone has access to clean and safe facilities when they need them most.",
         languages: [
           {
             name: "npm",
@@ -370,12 +360,12 @@ const settings = {
       },
       {
         name: "US Postal & Printing",
-        url: "https://github.com/Mateo-Wallace/US-Postal-Printing",
-        deployedSite: "https://us-postal-printing.herokuapp.com/",
+        url: "https://github.com/ndzamboni/qr-survey-app",
+        deployedSite: "https://github.com/ndzamboni/qr-survey-app",
         image: "us-postal.png",
-        alt_name: "Deployed site for us postal printing",
+        alt_name: "Survey app for YMCA of Greensboro",
         description:
-          "MERN Stack example site for a postal company. Allows users to track packages, make orders, email the store, and save all of that information to their profile for future reference.",
+          "This app allows people to scan a QR code, select their membership type, and complete a survey with questions specific to their membership. The survey responses are saved in JSON files for easy export to any database later.",
         languages: [
           {
             name: "MongoDB",
@@ -400,13 +390,13 @@ const settings = {
         ],
       },
       {
-        name: "ShoCase",
-        url: "https://github.com/Bfunk54/ShoCase",
-        deployedSite: "https://shocase.herokuapp.com/",
+        name: "QR Code Generator",
+        url: "https://github.com/ndzamboni/qr-code-generator",
+        deployedSite: "https://github.com/ndzamboni/qr-code-generator",
         image: "shocase.png",
-        alt_name: "Deployed site for ShoCase",
+        alt_name: "QR Code Generator",
         description:
-          "A social media website where users create playlists of Anime reccomendations. Other users can like and comment on existing playlists. It has a personal profile page and a simple search bar.",
+          "This is a simple Python script that generates QR codes from user-provided URLs and saves them as image files. The script uses the qrcode and Pillow libraries to create and manipulate QR code images.",
         languages: [
           {
             name: "MySQL",
@@ -431,12 +421,13 @@ const settings = {
         ],
       },
       {
-        name: "Flappy Pappy",
-        url: "https://github.com/Mateo-Wallace/MP5-Unity-Flappy-Pappy",
+        name: "Content Management System",
+        url: "https://github.com/ndzamboni/Content_Management_System",
+        deployedSite: "https://content-management-system-rigk.onrender.com",
         image: "flappy-pappy.png",
         alt_name: "Flappy pappy running locally on your computer",
         description:
-          "Flappy bird clone. Allows the user to play a simple game where you jump between pipes in order to achieve a high score.",
+          "This project is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts. The site is built from scratch and follows the Model-View-Controller (MVC) paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and express-session for authentication. The application is deployed on Render and connects to an external PostgreSQL database.",
         languages: [
           {
             name: "C#",
@@ -449,13 +440,13 @@ const settings = {
         ],
       },
       {
-        name: "Just Tech News",
-        url: "https://github.com/Mateo-Wallace/C1-Python-Newsfeed",
-        deployedSite: "https://c1-python-newsfeed.herokuapp.com/",
+        name: "Zrilla Horror Media App",
+        url: "https://github.com/Zrilla-App/zrilla?tab=readme-ov-file",
+        deployedSite: "https://zrilla-app.github.io/zrilla/",
         image: "just-tech-news.png",
-        alt_name: "Deployed site for just tech news",
+        alt_name: "Zrilla Horror Media App",
         description:
-          "Reddit clone built with Python and Flask. Allows users to create posts, comment, and upvote other posts.",
+          "Welcome to Zrilla, your go-to app for all things horror and thriller movies! Whether you're a seasoned horror aficionado or just dipping your toes into the genre's chilling waters, Zrilla has everything you need to keep track of your favorite films, rate them, and share your thoughts with fellow horror enthusiasts. With Zrilla, you can dive into the darkest corners of cinema and emerge unscathed... or maybe not.",
         languages: [
           {
             name: "Python",
@@ -507,13 +498,13 @@ const settings = {
         ],
       },
       {
-        name: "Blog Boy",
-        url: "https://github.com/Mateo-Wallace/M14-Tech-Blog",
-        deployedSite: "https://tranquil-cove-06789.herokuapp.com/",
+        name: "Employee Tracker",
+        url: "https://github.com/ndzamboni/employeeTracker",
+        deployedSite: "https://github.com/ndzamboni/employeeTracker",
         image: "blog-boy.png",
-        alt_name: "Deployed site for blog boy",
+        alt_name: "Employee Tracker",
         description:
-          "A social media website where users can create an account and make posts tied to their account that others can comment on.",
+          "This app takes the user input to store, update, add, remove employee data in detail. This app stores data to a Postgre SQL database and allows the user to easily manipulate the data via this app. Using \"chalk\" the backend app randomizes the menu item colors each time the app is started. This app will be able to be run through the back end as well as server side with a UI.",
         languages: [
           {
             name: "MySQL",
@@ -538,13 +529,13 @@ const settings = {
         ],
       },
       {
-        name: "Note Taker",
-        url: "https://github.com/Mateo-Wallace/M11-Note-Taker",
-        deployedSite: "https://desolate-fjord-67880.herokuapp.com/",
+        name: "Habit Tracker",
+        url: "https://github.com/ndzamboni/habit-tracker-z",
+        deployedSite: "https://github.com/ndzamboni/habit-tracker-z",
         image: "note-taker.png",
-        alt_name: "Deployed site for note taker",
+        alt_name: "Habit Tracker App",
         description:
-          "Allows a user to create notes, read created notes, update existing notes, and delete notes.",
+          "This app allows the user to track any habits, hobbies, or rituals and log their data, as well as visualize their data over a period of time. WORK IN PROGRESS.",
         languages: [
           {
             name: "NodeJS",
@@ -565,13 +556,13 @@ const settings = {
         ],
       },
       {
-        name: "Steamy Scoops",
-        url: "https://github.com/Mateo-Wallace/P1-Steamy-Scoops",
-        deployedSite: "https://mateo-wallace.github.io/P1-Steamy-Scoops/",
+        name: "Flight Companion Log",
+        url: "https://github.com/ndzamboni/Flight-Companion-Log",
+        deployedSite: "https://github.com/ndzamboni/Flight-Companion-Log",
         image: "steamy-scoops.png",
-        alt_name: "Deployed site for steamy scoops",
+        alt_name: "Deployed site for Flight Companion Log",
         description:
-          "A news site where a user can search a video game and be presented with Steam news and Youtube news.",
+          "This app allows the user to log their flights, including the date, time, location, and any notes they would like to add. The user can also view all of their logged flights and delete any they would like.",
         languages: [
           {
             name: "HTML5",
@@ -596,13 +587,13 @@ const settings = {
         ],
       },
       {
-        name: "Weather Boy",
-        url: "https://github.com/Mateo-Wallace/M6-Weather-Dashboard",
-        deployedSite: "https://mateo-wallace.github.io/M6-Weather-Dashboard/",
+        name: "Password Generator",
+        url: "https://github.com/ndzamboni/password-py",
+        deployedSite: "https://github.com/ndzamboni/password-py",
         image: "weather-boy.png",
         alt_name: "Deployed site for weather boy",
         description:
-          "Weather app that allows the user to type in a city and see the weather for the next 5 days. Makes use of API in order to get weather data.",
+          "A Python-based password generator that creates strong, secure passwords based on user-defined criteria. This enhanced version ensures password complexity, evaluates password strength, and allows saving generated passwords to a file.",
         languages: [
           {
             name: "HTML5",
@@ -623,13 +614,13 @@ const settings = {
         ],
       },
       {
-        name: "CSS Cheat Sheet",
-        url: "https://github.com/Mateo-Wallace/M2-CSS-Cheatsheet",
-        deployedSite: "https://mateo-wallace.github.io/M2-CSS-Cheatsheet/",
+        name: "Node Note Taker",
+        url: "https://github.com/ndzamboni/node-note-taker",
+        deployedSite: "https://github.com/ndzamboni/node-note-taker",
         image: "css-cheatsheet.png",
-        alt_name: "Deployed site for css cheat sheet",
+        alt_name: "Node Note Taker Repo",
         description:
-          "One of my first projects I ever built. It uses advanced CSS in order to make a study guide esque site for CSS notes.",
+          "This Node.js application allows users to create, save, view, and delete notes. It utilizes Express.js for handling server requests, fs (File System) module for interacting with the file system, and uuid package for generating unique IDs for notes.",
         languages: [
           {
             name: "HTML5",

@@ -67,6 +67,8 @@ function DegreeCard(props) {
     },
   });
 
+  const logoPath = require(`../../assests/images/${degree.logo_path}`).default;
+
   return (
     <div className="degree-card">
       <motion.div
@@ -81,7 +83,7 @@ function DegreeCard(props) {
             maxHeight: "100%",
             transform: "scale(90%, 90%)",
           }}
-          src={require(`../../assests/images/${degree.logo_path}`)}
+          src={logoPath}
           alt={degree.alt_name}
         />
       </motion.div>
