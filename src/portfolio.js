@@ -320,7 +320,7 @@ const settings = {
         name: "Discord Gaming Vision Board",
         url: "https://github.com/ndzamboni/discord-bot-gaming-vision-board",
         deployedSite: "https://github.com/ndzamboni/discord-bot-gaming-vision-board",
-        image: "dumbot.png",
+        image: "discorddemo.PNG",
         alt_name: "Vision Board Bot on Discord",
         description:
           "Allows users to post games they would like to play to a shared vision board. Users can then react to the games they would like to play, and the bot will keep track of the games with the most reactions.",
@@ -343,7 +343,7 @@ const settings = {
         name: "Potty Partner",
         url: "https://github.com/ndzamboni/Potty_Partner",
         deployedSite: "https://potty-partner.onrender.com",
-        image: "rpg-dice-js.png",
+        image: "pottyPartner.PNG",
         alt_name: "potty partner deployed site",
         description:
           "Potty Partner is a web application designed to help users find bathrooms and leave reviews. Whether you’re traveling, in a new city, or just out and about, Potty Partner makes it easy to locate nearby restrooms and read user reviews to find the cleanest, most accessible options. This app aims to provide a community-driven resource for bathroom locations and conditions, ensuring that everyone has access to clean and safe facilities when they need them most.",
@@ -359,10 +359,10 @@ const settings = {
         ],
       },
       {
-        name: "US Postal & Printing",
+        name: "Survey App for YMCA of Greensboro",
         url: "https://github.com/ndzamboni/qr-survey-app",
         deployedSite: "https://github.com/ndzamboni/qr-survey-app",
-        image: "us-postal.png",
+        image: "surveyApp.PNG",
         alt_name: "Survey app for YMCA of Greensboro",
         description:
           "This app allows people to scan a QR code, select their membership type, and complete a survey with questions specific to their membership. The survey responses are saved in JSON files for easy export to any database later.",
@@ -393,7 +393,7 @@ const settings = {
         name: "QR Code Generator",
         url: "https://github.com/ndzamboni/qr-code-generator",
         deployedSite: "https://github.com/ndzamboni/qr-code-generator",
-        image: "shocase.png",
+        image: "qrcode.PNG",
         alt_name: "QR Code Generator",
         description:
           "This is a simple Python script that generates QR codes from user-provided URLs and saves them as image files. The script uses the qrcode and Pillow libraries to create and manipulate QR code images.",
@@ -424,7 +424,7 @@ const settings = {
         name: "Content Management System",
         url: "https://github.com/ndzamboni/Content_Management_System",
         deployedSite: "https://content-management-system-rigk.onrender.com",
-        image: "flappy-pappy.png",
+        image: "cmsBlog.PNG",
         alt_name: "Flappy pappy running locally on your computer",
         description:
           "This project is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts. The site is built from scratch and follows the Model-View-Controller (MVC) paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and express-session for authentication. The application is deployed on Render and connects to an external PostgreSQL database.",
@@ -443,7 +443,7 @@ const settings = {
         name: "Zrilla Horror Media App",
         url: "https://github.com/Zrilla-App/zrilla?tab=readme-ov-file",
         deployedSite: "https://zrilla-app.github.io/zrilla/",
-        image: "just-tech-news.png",
+        image: "zrilla-home.PNG",
         alt_name: "Zrilla Horror Media App",
         description:
           "Welcome to Zrilla, your go-to app for all things horror and thriller movies! Whether you're a seasoned horror aficionado or just dipping your toes into the genre's chilling waters, Zrilla has everything you need to keep track of your favorite films, rate them, and share your thoughts with fellow horror enthusiasts. With Zrilla, you can dive into the darkest corners of cinema and emerge unscathed... or maybe not.",
@@ -467,13 +467,13 @@ const settings = {
         ],
       },
       {
-        name: "Google Books Search",
-        url: "https://github.com/Mateo-Wallace/M21-Book-Search-Engine",
-        deployedSite: "https://m21-book-search-engine.herokuapp.com/",
-        image: "book-search.png",
-        alt_name: "Deployed site for Google Books Search",
+        name: "Weather App",
+        url: "https://github.com/ndzamboni/weather-app-nz",
+        deployedSite: "https://ndzamboni.github.io/weather-app-nz/",
+        image: "weather-2.PNG",
+        alt_name: "Deployed site for Weather App",
         description:
-          "MERN Stack search engine that allows user to create an account, search for books, and save books to a database.",
+          "This is a simple weather dashboard application that allows users to check the current weather and 7-day forecast for a specific city. Users can search for a city, and the app will display the current weather conditions along with a forecast for the next 7 days. The app utilizes the OpenWeatherMap API to fetch weather data based on user input.",
         languages: [
           {
             name: "MongoDB",
@@ -501,7 +501,7 @@ const settings = {
         name: "Employee Tracker",
         url: "https://github.com/ndzamboni/employeeTracker",
         deployedSite: "https://github.com/ndzamboni/employeeTracker",
-        image: "blog-boy.png",
+        image: "backendDatabaseCLI.PNG",
         alt_name: "Employee Tracker",
         description:
           "This app takes the user input to store, update, add, remove employee data in detail. This app stores data to a Postgre SQL database and allows the user to easily manipulate the data via this app. Using \"chalk\" the backend app randomizes the menu item colors each time the app is started. This app will be able to be run through the back end as well as server side with a UI.",
@@ -532,7 +532,7 @@ const settings = {
         name: "Habit Tracker",
         url: "https://github.com/ndzamboni/habit-tracker-z",
         deployedSite: "https://github.com/ndzamboni/habit-tracker-z",
-        image: "note-taker.png",
+        image: "habitTracker.PNG",
         alt_name: "Habit Tracker App",
         description:
           "This app allows the user to track any habits, hobbies, or rituals and log their data, as well as visualize their data over a period of time. WORK IN PROGRESS.",
@@ -559,7 +559,7 @@ const settings = {
         name: "Flight Companion Log",
         url: "https://github.com/ndzamboni/Flight-Companion-Log",
         deployedSite: "https://github.com/ndzamboni/Flight-Companion-Log",
-        image: "steamy-scoops.png",
+        image: "flight.PNG",
         alt_name: "Deployed site for Flight Companion Log",
         description:
           "This app allows the user to log their flights, including the date, time, location, and any notes they would like to add. The user can also view all of their logged flights and delete any they would like.",
@@ -590,7 +590,7 @@ const settings = {
         name: "Password Generator",
         url: "https://github.com/ndzamboni/password-py",
         deployedSite: "https://github.com/ndzamboni/password-py",
-        image: "weather-boy.png",
+        image: "passwordGen.PNG",
         alt_name: "Deployed site for weather boy",
         description:
           "A Python-based password generator that creates strong, secure passwords based on user-defined criteria. This enhanced version ensures password complexity, evaluates password strength, and allows saving generated passwords to a file.",
@@ -617,7 +617,7 @@ const settings = {
         name: "Node Note Taker",
         url: "https://github.com/ndzamboni/node-note-taker",
         deployedSite: "https://github.com/ndzamboni/node-note-taker",
-        image: "css-cheatsheet.png",
+        image: "nodeNoteTaker.PNG",
         alt_name: "Node Note Taker Repo",
         description:
           "This Node.js application allows users to create, save, view, and delete notes. It utilizes Express.js for handling server requests, fs (File System) module for interacting with the file system, and uuid package for generating unique IDs for notes.",
