@@ -196,9 +196,9 @@ const settings = {
   const majorEducation = {
     data: [
       {
-        title: "",
+        title: "placeholder",
         subtitle: "Certificate in Full Stack Web Development",
-        logo_path: "",
+        logo_path: "placeholder.jpg",
         alt_name: "",
         duration: "",
         descriptions: [
@@ -235,7 +235,7 @@ const settings = {
       {
         title: "Placeholder",
         subtitle: "placeholder",
-        logo_path: "postman.png",
+        logo_path: "placeholder.jpg",
         certificate_link:
           "https://api.badgr.io/public/assertions/vaZHGY3bQe2o-g5kVNQ7_Q?identity__email=mateo.t.wallace%40gmail.com",
         alt_name: "placeholder",
@@ -259,7 +259,7 @@ const settings = {
             title: "Membership Director - YMCA of Greensboro",
             company: "YMCA of Greensboro",
             company_url: "https://www.ymcagreensboro.org/locations/alex-w-spears-iii-ymca",
-            logo_path: "mateo-logo.png",
+            logo_path: "placeholder.jpg",
             duration: "August 2021 - Present",
             location: "Greensboro, NC",
             description: `Leads a team of over 30 staff to provide quality service to over 6,000 members. Manages an annual budget of over $2 million and is responsible for membership data and reporting. Works with the CEO and other directors to create and implement new programs and services.`,
@@ -269,7 +269,7 @@ const settings = {
             title: "Family Services Director",
             company: "YMCA of Greensboro",
             company_url: "https://www.ymcagreensboro.org/locations/alex-w-spears-iii-ymca",
-            logo_path: "mateo-logo.png",
+            logo_path: "placeholder.jpg",
             duration: "August 2015 - August 2021",
             location: "Greensboro, NC",
             description: `Directed family service programs, managing community outreach and engagement. Led a large team of staff to provide quality summer camp and after school programs.`,
@@ -285,7 +285,7 @@ const settings = {
             title: "Bright Beginnings Program Leader",
             company: "YMCA of Greensboro",
             company_url: "https://www.ymcagreensboro.org/locations/alex-w-spears-iii-ymca",
-            logo_path: "mateo-logo.png",
+            logo_path: "placeholder.jpg",
             duration: "August 2018 - Present",
             location: "Greensboro, NC",
             description:
