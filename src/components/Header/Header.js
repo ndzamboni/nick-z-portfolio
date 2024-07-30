@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import mwLogo from "../../assests/images/MW-Logo-No-BG.svg";
 import { motion } from "framer-motion";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg";
 import { HiMoon } from "react-icons/hi";
@@ -70,7 +70,7 @@ function Header(props) {
       transition={{ duration: 1 }}
     >
       <header className="header">
-        <NavLink to={link} tag={Link} className="logo">
+        <NavLink to={link} className="logo">
           <span style={{ color: theme.text }}></span>
           {greeting.logo_name ? (
             <span className="logo-name" style={{ color: theme.text }}>
@@ -81,7 +81,7 @@ function Header(props) {
               <img
                 src={mwLogo}
                 style={{ height: "80px" }}
-                alt="Red logo for Mateo Wallace, looks like an MW with two dots."
+                alt="Red logo for Nick Zamboni, looks like an NZ with two dots."
               />
             </span>
           )}
@@ -97,9 +97,11 @@ function Header(props) {
             <NavLink
               className="homei"
               to="/home"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.text }}
+              style={({ isActive }) => ({
+                fontWeight: isActive ? "bold" : "normal",
+                borderRadius: 5,
+                color: theme.text,
+              })}
             >
               Home
             </NavLink>
@@ -108,9 +110,11 @@ function Header(props) {
             <NavLink
               className="ec"
               to="/education"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.text }}
+              style={({ isActive }) => ({
+                fontWeight: isActive ? "bold" : "normal",
+                borderRadius: 5,
+                color: theme.text,
+              })}
             >
               Education and Certifications
             </NavLink>
@@ -119,9 +123,11 @@ function Header(props) {
             <NavLink
               className="xp"
               to="/experience"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.text }}
+              style={({ isActive }) => ({
+                fontWeight: isActive ? "bold" : "normal",
+                borderRadius: 5,
+                color: theme.text,
+              })}
             >
               Experience
             </NavLink>
@@ -130,9 +136,11 @@ function Header(props) {
             <NavLink
               className="projects"
               to="/projects"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.text }}
+              style={({ isActive }) => ({
+                fontWeight: isActive ? "bold" : "normal",
+                borderRadius: 5,
+                color: theme.text,
+              })}
             >
               Projects
             </NavLink>
@@ -141,9 +149,11 @@ function Header(props) {
             <NavLink
               className="cr"
               to="/contact"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.text }}
+              style={({ isActive }) => ({
+                fontWeight: isActive ? "bold" : "normal",
+                borderRadius: 5,
+                color: theme.text,
+              })}
             >
               Contact and Resume
             </NavLink>

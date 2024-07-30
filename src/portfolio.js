@@ -13,7 +13,7 @@ const settings = {
     title: "Hello World 👋!",
     footer: "Copyright © Nick Zamboni ", // footer + currentYear + "."
     full_name: "Nick Zamboni",
-    subTitle: "Full Stack Developer, Instructor, Tutor. Always learning.",
+    subTitle: "Full Stack Developer, striving to always learn more.",
     resumeLink:
       "",
   };
