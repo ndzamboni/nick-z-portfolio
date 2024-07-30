@@ -9,13 +9,13 @@ const settings = {
   
   //Home Page
   const greeting = {
-    profilePhoto: "", //doesnt work for some reason. go to Greeting.js line 56
+    profilePhoto: "nick.jpg", //doesnt work for some reason. go to Greeting.js line 56
     title: "Hello World 👋!",
     footer: "Copyright © Nick Zamboni ", // footer + currentYear + "."
     full_name: "Nick Zamboni",
     subTitle: "Full Stack Developer, striving to always learn more.",
     resumeLink:
-      "",
+      "https://docs.google.com/document/d/1LySvNu7RIaPZhtiZteYvLvkC_jjYfSPVmsnYOOQ8MRk/edit?usp=sharing",
   };
   
   // Error 404, Not Found
@@ -34,7 +34,7 @@ const settings = {
     gmail: "ndzamboni@gmail.com",
     gitlab: "",
     twitter: "https://twitter.com/NickZamb",
-    instagram: "",
+    instagram: "https://www.instagram.com/nickzamboni/",
   };
   
   const skills = {
@@ -237,7 +237,7 @@ const settings = {
         subtitle: "placeholder",
         logo_path: "placeholder.jpg",
         certificate_link:
-          "https://api.badgr.io/public/assertions/vaZHGY3bQe2o-g5kVNQ7_Q?identity__email=mateo.t.wallace%40gmail.com",
+          "https://docs.google.com/document/d/1LySvNu7RIaPZhtiZteYvLvkC_jjYfSPVmsnYOOQ8MRk/edit?usp=sharing",
         alt_name: "placeholder",
         color_code: "#fffbf3",
       },
@@ -346,7 +346,7 @@ const settings = {
         image: "pottyPartner.PNG",
         alt_name: "potty partner deployed site",
         description:
-          "Potty Partner is a web application designed to help users find bathrooms and leave reviews. Whether you’re traveling, in a new city, or just out and about, Potty Partner makes it easy to locate nearby restrooms and read user reviews to find the cleanest, most accessible options. This app aims to provide a community-driven resource for bathroom locations and conditions, ensuring that everyone has access to clean and safe facilities when they need them most.",
+          "Potty Partner is a web application designed to help users find bathrooms and leave reviews. This app aims to provide a community-driven resource for bathroom locations and conditions, ensuring that everyone has access to clean and safe facilities when they need them most.",
         languages: [
           {
             name: "npm",
@@ -427,7 +427,7 @@ const settings = {
         image: "cmsBlog.PNG",
         alt_name: "Flappy pappy running locally on your computer",
         description:
-          "This project is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts. The site is built from scratch and follows the Model-View-Controller (MVC) paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and express-session for authentication. The application is deployed on Render and connects to an external PostgreSQL database.",
+          "A CMS-style blog site similar to a Wordpress site, where users can publish blog posts and comment on other users' posts. The site is built from scratch and follows the Model-View-Controller (MVC) paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and express-session for authentication.",
         languages: [
           {
             name: "C#",
@@ -446,7 +446,7 @@ const settings = {
         image: "zrilla-home.PNG",
         alt_name: "Zrilla Horror Media App",
         description:
-          "Welcome to Zrilla, your go-to app for all things horror and thriller movies! Whether you're a seasoned horror aficionado or just dipping your toes into the genre's chilling waters, Zrilla has everything you need to keep track of your favorite films, rate them, and share your thoughts with fellow horror enthusiasts. With Zrilla, you can dive into the darkest corners of cinema and emerge unscathed... or maybe not.",
+          "Welcome to Zrilla, your go-to app for all things horror and thriller movies! Zrilla has everything you need to keep track of your favorite films, rate them, and share your thoughts with fellow horror enthusiasts. With Zrilla, you can dive into the darkest corners of cinema and emerge unscathed... or maybe not.",
         languages: [
           {
             name: "Python",
@@ -473,7 +473,7 @@ const settings = {
         image: "weather-2.PNG",
         alt_name: "Deployed site for Weather App",
         description:
-          "This is a simple weather dashboard application that allows users to check the current weather and 7-day forecast for a specific city. Users can search for a city, and the app will display the current weather conditions along with a forecast for the next 7 days. The app utilizes the OpenWeatherMap API to fetch weather data based on user input.",
+          "This is a simple weather dashboard application that allows users to check the current weather and 7-day forecast for a specific city. Users can search for a city, and the app will display the current weather conditions along with a forecast for the next 7 days.",
         languages: [
           {
             name: "MongoDB",
@@ -504,7 +504,7 @@ const settings = {
         image: "backendDatabaseCLI.PNG",
         alt_name: "Employee Tracker",
         description:
-          "This app takes the user input to store, update, add, remove employee data in detail. This app stores data to a Postgre SQL database and allows the user to easily manipulate the data via this app. Using \"chalk\" the backend app randomizes the menu item colors each time the app is started. This app will be able to be run through the back end as well as server side with a UI.",
+          "This app takes the user input to store, update, add, remove employee data in detail. This app stores data to a Postgre SQL database and allows the user to easily manipulate the data via this app.",
         languages: [
           {
             name: "MySQL",
@@ -562,7 +562,7 @@ const settings = {
         image: "flight.PNG",
         alt_name: "Deployed site for Flight Companion Log",
         description:
-          "This app allows the user to log their flights, including the date, time, location, and any notes they would like to add. The user can also view all of their logged flights and delete any they would like.",
+          "This app allows the user to log their flights, including the date, time, location, and any notes they would like to add. The user can also view all of their logged flights and delete any they would like. WORK IN PROGRESS.",
         languages: [
           {
             name: "HTML5",
