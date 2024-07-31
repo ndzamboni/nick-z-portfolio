@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import mwLogo from "../../assests/images/MW-Logo-No-BG.svg";
+import mwLogo from "../../assests/images/logo.png";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";

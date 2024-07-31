@@ -425,7 +425,7 @@ const settings = {
         url: "https://github.com/ndzamboni/Content_Management_System",
         deployedSite: "https://content-management-system-rigk.onrender.com",
         image: "cmsBlog.PNG",
-        alt_name: "Flappy pappy running locally on your computer",
+        alt_name: "CMS Blog",
         description:
           "A CMS-style blog site similar to a Wordpress site, where users can publish blog posts and comment on other users' posts. The site is built from scratch and follows the Model-View-Controller (MVC) paradigm, using Handlebars.js as the templating language, Sequelize as the ORM, and express-session for authentication.",
         languages: [
